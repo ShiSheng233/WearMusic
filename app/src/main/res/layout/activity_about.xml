@@ -68,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="第三方网易云客户端 V2.0\nBy JackuXL 出品：WearBBS\n官方QQ群：1050643053\n官网：https://wmusic.wearbbs.cn\n论坛：https://wearbbs.cn\n使用【网易云API】开发\n特别感谢：@luern0313"
+                android:text="第三方网易云客户端 V2\nBy JackuXL\n官方QQ群：1050643053\n官网：https://wmusic.wearbbs.cn\n使用【网易云API】开发\n特别感谢：@luern0313\nBuild by ShiSheng"
                 android:textColor="#999999"
                 android:textSize="10sp" />
 
@@ -145,30 +145,7 @@
                         android:rotation="270"
                         app:srcCompat="@drawable/icon_extra" />
                 </LinearLayout>
-
             </LinearLayout>
-
-            <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="108dp"
-                android:layout_height="108dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="40dp"
-                android:layout_marginBottom="5dp"
-                app:srcCompat="@drawable/qrcode" />
-
-            <TextView
-                android:id="@+id/textView21"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="40dp"
-                android:gravity="center"
-                android:text="官方群二维码"
-                android:textColor="#999999"
-                android:textSize="12sp" />
-
         </LinearLayout>
     </ScrollView>
 
