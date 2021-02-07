@@ -21,16 +21,5 @@ public class AboutActivity extends SlideBackActivity {
             AppCenter.start(getApplication(), "9250a12d-0fa9-4292-99fc-9d09dcc32012", Analytics.class, Crashes.class);
         }
     }
-    public void onClick(View view){
-        switch (view.getId()){
-            case R.id.tv_title:
-                startActivity(new Intent(AboutActivity.this, MenuActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP).addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT));
-            case R.id.check_update:
-                startActivity(new Intent(AboutActivity.this, UpdateActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP).addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT));
-        }
 
-    }
-    public void cu(View view){
-        startActivity(new Intent(AboutActivity.this, ContactActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP).addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT));
-    }
 }
