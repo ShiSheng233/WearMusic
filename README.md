@@ -10,7 +10,7 @@
 
 ## 下载
 
-本版本使用CI/CD自动构建，您可以从[https://install.appcenter.ms/users/shisheng233/apps/WearMusic](https://install.appcenter.ms/users/shisheng233/apps/WearMusic) 处取得最新更新。
+本版本使用CI/CD自动构建，您可以从[https://install.appcenter.ms/orgs/wearmusic/apps/wearmusic/distribution_groups/public](https://install.appcenter.ms/orgs/wearmusic/apps/wearmusic/distribution_groups/public) 处取得最新更新。
 
 ## 注意
 
